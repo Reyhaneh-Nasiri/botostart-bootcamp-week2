@@ -9,10 +9,6 @@
         max-height: none !important;
         overflow: visible !important;
         direction: rtl !important;
-    }
-
-    body,
-    .quote-card {
         font-family: 'Vazirmatn', sans-serif !important;
     }
 

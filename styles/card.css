@@ -32,13 +32,11 @@
     transition: var(--transition);
 }
 
-.print-bg-image {
-    display: none;
-}
 
-.quote-card:hover + .molana-bg {
+main:hover .molana-bg{
     opacity: .4;
 }
+
 
 .quote-card .quote-card_title {
     padding: 8px 12px;

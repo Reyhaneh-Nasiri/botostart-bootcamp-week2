@@ -8,22 +8,28 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/theme.css">
     <link rel="stylesheet" href="./styles/card.css">
-    <link rel="stylesheet" href="./styles/print.css" media="print">
-    <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/triangleOverlay.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/print.css" media="print">
 </head>
 
 <body class=" ">
+    <header>
         <label for="theme-toggle" class="theme-toggle">
             <input type="checkbox" name="theme-toggle" id="theme-toggle">
         </label>
-    <div class="quote-card">
-        <h1 class="quote-card_title">مولانا</h1>
-        <p class="quote-card_text"><q> این جفای خلق با تو در جهان گر بدانی گنج زر باشد نهان </q></p>
-    </div>
-    <div class="molana-bg"></div>
-    <div class="triangle-overlay"></div>
-    <img src="./images/molana.svg" alt="تصویر مولانا" class="print-bg-image">
+    </header>
+    <main>
+        <article class="quote-card">
+            <h1 class="quote-card_title">مولانا</h1>
+            <p class="quote-card_text"><q> این جفای خلق با تو در جهان گر بدانی گنج زر باشد نهان </q></p>
+        </article>
+        <div class="molana-bg" aria-hidden="true"></div>
+    </main>
+    <div class="triangle-overlay" aria-hidden="true"></div>
+    <figure>
+        <img src="./images/molana.svg" alt="تصویر مولانا" class="print-bg-image">
+    </figure>
 
 
     <script src="./script.js"></script>

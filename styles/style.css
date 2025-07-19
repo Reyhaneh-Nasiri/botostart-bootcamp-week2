@@ -40,3 +40,6 @@ body {
     font-weight: 400;
 }
 
+.print-bg-image {
+    display: none;
+}
