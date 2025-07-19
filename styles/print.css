@@ -1,0 +1,57 @@
+
+@media print {
+
+    body {
+        background: #fff !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+        direction: rtl !important;
+    }
+
+    body,
+    .quote-card {
+        font-family: 'Vazirmatn', sans-serif !important;
+    }
+
+    .theme-toggle,
+    .molana-bg,
+    .triangle-overlay {
+        display: none !important;
+    }
+
+    .quote-card {
+        page-break-inside: avoid;
+        page-break-after: avoid;
+        margin: 1cm auto !important;
+        width: 17cm !important;
+        box-shadow: none !important;
+        border: 1mm solid #000 !important;
+        background-color: #fff !important;
+    }
+
+    .quote-card .quote-card_title {
+        border-bottom: 1mm solid #000 !important;
+        font-size: 18pt !important;
+        padding: .2cm !important;
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    .quote-card .quote-card_text {
+        padding: 1cm 0 !important;
+        font-size: 14pt !important;
+        color: #000 !important;
+    }
+
+    .print-bg-image {
+        display: block !important;
+        width: 17cm !important;
+        height: auto !important;
+        margin: 1cm auto !important;
+    }
+
+
+}

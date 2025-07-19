@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn-Regular.eot');
+    src: url('../fonts/Vazirmatn-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazirmatn-Regular.woff2') format('woff2'),
+        url('../fonts/Vazirmatn-Regular.woff') format('woff'),
+        url('../fonts/Vazirmatn-Regular.ttf') format('truetype'),
+        url('../fonts/Vazirmatn-Regular.svg#Vazirmatn') format('svg');
+}
+
+:root {
+    --bg-color: #50D53E;
+    --bg-color2: #185216;
+    --card-bg: #246D1F;
+    --card-title-bg: #11420D;
+    --card-title-color: #D0F26D;
+    --card-desc-color: #EDFFD4;
+    --polygon-bg: #1E601B;
+    --transition: all .4s ease-in-out;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    background: linear-gradient(107.09deg, var(--bg-color) 2.89%, var(--bg-color2) 79.33%);
+    font-family: "Vazirmatn";
+    font-weight: 400;
+}
+

@@ -1,0 +1,172 @@
+
+/* MEDIA QUERIES */
+/* For devices with a width greater than 768 */
+@media screen and (min-width: 768px) {
+    .quote-card .quote-card_title {
+        padding: 15px;
+        font-size: 28px;
+    }
+
+    .quote-card .quote-card_text {
+        font-size: 20px;
+        padding: 24px;
+    }
+
+    .triangle-overlay {
+        width: 650px;
+        height: 600px;
+    }
+
+    .triangle-overlay::after {
+        width: 470px;
+        height: 430px;
+    }
+
+    .triangle-overlay::before {
+        width: 280px;
+        height: 240px;
+    }
+}
+
+/* For devices with a width greater than 1024 */
+@media screen and (min-width: 1024px) {
+
+    /* For devices with a width greater than 1024 and a height greater than 900 */
+    @media screen and (min-height: 900px) {
+
+        .quote-card .quote-card_title {
+            font-size: 30px;
+        }
+
+
+        .quote-card .quote-card_text {
+            font-size: 24px;
+        }
+
+        .triangle-overlay {
+            width: 890px;
+            height: 710px;
+        }
+
+        .triangle-overlay::after {
+            width: 670px;
+            height: 530px;
+        }
+
+        .triangle-overlay::before {
+            width: 430px;
+            height: 330px;
+        }
+    }
+
+    /* For devices with a width greater than 1024 and a height less than 900 */
+    @media screen and (max-height: 900px) {
+
+        .quote-card .quote-card_title {
+            padding: 5px;
+            font-size: 24px;
+        }
+
+        .quote-card .quote-card_text {
+            font-size: 20px;
+        }
+
+        .triangle-overlay {
+            width: 520px;
+            height: 330px;
+        }
+
+
+        .triangle-overlay::after {
+            width: 380px;
+            height: 230px;
+        }
+
+
+        .triangle-overlay::before {
+            width: 230px;
+            height: 130px;
+        }
+    }
+}
+
+
+/* For devices with a width greater than 1400 */
+@media screen and (min-width: 1400px) {
+
+    /* For devices with a width greater than 1400 and a height greater than 1300 */
+    .quote-card {
+        width: 1159px;
+        height: 301px;
+        margin-top: 250px;
+    }
+
+
+    .quote-card .quote-card_title {
+        height: 96px;
+        line-height: 90px;
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .quote-card .quote-card_text {
+        font-size: 40px;
+        line-height: 205px;
+        padding: 0;
+    }
+
+
+    .triangle-overlay {
+        width: 1044px;
+        height: 995.8px;
+    }
+
+    .triangle-overlay::after {
+        width: 737.5px;
+        height: 703.5px;
+    }
+
+    .triangle-overlay::before {
+        width: 407.5px;
+        height: 388.5px;
+    }
+
+
+    /* For devices with a width greater than 1400 and a height less than 1300 */
+    @media screen and (max-height: 1300px) {
+        .quote-card {
+            width: 80%;
+            height: auto;
+            margin-top: 100px;
+        }
+
+        .quote-card .quote-card_title {
+            height: 70px;
+            line-height: 70px;
+            font-size: 35px;
+        }
+
+        .quote-card .quote-card_text {
+            font-size: 30px;
+            line-height: 115px;
+        }
+
+        .triangle-overlay {
+            width: 634px;
+            height: 485.8px;
+        }
+
+        .triangle-overlay::after {
+            width: 457.5px;
+            height: 353.5px;
+        }
+
+        .triangle-overlay::before {
+            width: 277.5px;
+            height: 208.5px;
+        }
+    }
+}
+
+
+
