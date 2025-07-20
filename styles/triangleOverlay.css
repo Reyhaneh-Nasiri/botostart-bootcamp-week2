@@ -1,7 +1,6 @@
 
 /* Triangle Bottom-Left */
 .triangle-overlay {
-    z-index: -2;
     width: 357px;
     height: 325.8px;
     position: absolute;
@@ -13,7 +12,7 @@
 }
 
 .triangle-overlay:hover {
-    filter: drop-shadow(0 0 100px #222)
+    filter: drop-shadow(0 0 10px var(--polygon-bg));
 }
 
 
