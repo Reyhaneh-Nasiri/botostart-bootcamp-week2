@@ -95,7 +95,7 @@
 @media screen and (min-width: 1400px) {
 
     /* For devices with a width greater than 1400 and a height greater than 1300 */
-    .main{
+    main{
         width: 1159px;
     }
     .quote-card {
