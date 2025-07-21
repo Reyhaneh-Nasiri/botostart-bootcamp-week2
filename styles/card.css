@@ -50,9 +50,23 @@ main:hover + .molana-bg{
     transition: var(--transition);
 }
 
+
+.quote-card .quote-card_title:hover{
+    color: var(--h-card-title-color);
+}
+
 .quote-card .quote-card_text {
     color: var(--card-desc-color);
     font-size: 14px;
     padding: 12px 16px;
     text-align: center;
+}
+
+
+.quote-card .quote-card_text q{
+    transition: var(--transition);
+}
+
+.quote-card .quote-card_text q:hover{
+    color: var(--h-card-desc-color);
 }

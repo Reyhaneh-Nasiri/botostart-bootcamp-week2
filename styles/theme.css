@@ -7,6 +7,8 @@ body.dark-mode {
     --card-bg: #1f5222;
     --card-title-bg: #112c12;
     --card-title-color: #b7d65b;
+    --h-card-title-color: #97aa5f;
+    --h-card-desc-color: #c4d3ae;
     --polygon-bg: #1f5222;
 }
 

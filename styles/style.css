@@ -16,7 +16,9 @@
     --card-bg: #246D1F;
     --card-title-bg: #11420D;
     --card-title-color: #D0F26D;
+    --h-card-title-color: #c6fd21;
     --card-desc-color: #EDFFD4;
+    --h-card-desc-color: #e2f1b7;
     --polygon-bg: #1E601B;
     --transition: all .4s ease-in-out;
 }
