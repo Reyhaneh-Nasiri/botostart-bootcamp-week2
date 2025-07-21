@@ -1,12 +1,11 @@
 /* CARD */
 main{
     width: 90%;
-    margin: auto;
+    margin: 100px auto 0;
 }
 
 .quote-card {
     width: 100%;
-    margin-top: 100px;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0px 0px 53px 22px #00000040;
@@ -37,7 +36,7 @@ main{
 }
 
 
-main:hover .molana-bg{
+main:hover + .molana-bg{
     opacity: .4;
 }
 
